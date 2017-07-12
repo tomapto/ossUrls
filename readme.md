@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/tomapto/ossUrls.svg?branch=master)](https://travis-ci.org/tomapto/ossUrls)
 
-From bucket/key to URL and the other way around
+From region/bucket/key to URL and the other way around
 
 ## Usage
 

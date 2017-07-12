@@ -1,5 +1,7 @@
 # ossUrls
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/tomapto/ossUrls.svg)](https://greenkeeper.io/)
+
 From bucket/key to URL and the other way around
 
 ## Usage

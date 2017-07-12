@@ -1,0 +1,35 @@
+{
+  "name": "ossurls",
+  "version": "1.5.2",
+  "description": "Create OSS urls from region/bucket/key or extract region/bucket/key from them",
+  "main": "index.js",
+  "bin": {
+    "ossUrls": "bin/ossUrls.js"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape test/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tomapto/ossUrls.git"
+  },
+  "author": "Tomapto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomapto/ossUrls/issues"
+  },
+  "homepage": "https://github.com/tomapto/ossUrls",
+  "devDependencies": {
+    "cross-exec-file": "^1.0.0",
+    "tape": "^3.0.3"
+  },
+  "dependencies": {
+    "cross-exec-file": "^1.0.0",
+    "minimist": "^1.1.0",
+    "s3signed": "^0.1.0",
+    "tape": "^3.6.1"
+  }
+}

@@ -24,12 +24,12 @@ In a shell:
 ```sh
 $ npm install -g ossUrls
 
-# Get URLs for a bucket/key
+# Get URLs for a region/bucket/key
 $ ossUrls to-url oss-cn-beijing my-bucket some/file/key
 oss://oss-cn-beijing/my-bucket/some/file/key
 https://my-bucket.oss-cn-beijing.aliyuncs.com/some/file/key
 
-# Get one type of URL for a bucket/key
+# Get one type of URL for a region/bucket/key
 $ ossUrls to-url oss-cn-beijing my-bucket some/file/key --type bucket-in-host
 https://my-bucket.oss-cn-beijing.aliyuncs.com/some/file/key
 
